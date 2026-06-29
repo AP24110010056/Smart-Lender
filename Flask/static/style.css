@@ -11,16 +11,10 @@ body{
     justify-content:center;
     align-items:center;
     padding:40px;
+    background:linear-gradient(-45deg,#0f2027,#203a43,#2c5364,#0b8793,#360033,#0f3443);
+    background-size:600% 600%;
+    animation:bgMove 18s ease infinite;
     overflow-x:hidden;
-
-    background:
-        linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
-        url("background.jpg");
-
-    background-size:cover;
-    background-position:center;
-    background-repeat:no-repeat;
-    background-attachment:fixed;
 }
 
 @keyframes bgMove{
@@ -56,15 +50,17 @@ body::after{
     opacity:.30;
     z-index:-1;
 }
-    .container{
+
+.container{
     width:900px;
     max-width:95%;
     padding:50px;
     border-radius:30px;
-    background:rgba(15,20,35,0.70);
-    backdrop-filter:blur(12px);
-    border:1px solid rgba(255,255,255,.15);
+    background:rgba(255,255,255,.10);
+    backdrop-filter:blur(25px);
+    border:1px solid rgba(255,255,255,.18);
     box-shadow:0 20px 60px rgba(0,0,0,.45);
+    animation:float 5s ease-in-out infinite;
 }
 
 @keyframes float{
