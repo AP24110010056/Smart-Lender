@@ -1,5 +1,7 @@
 # Import required libraries
 
+import os
+
 import numpy as np
 import pandas as pd
 import pickle
@@ -71,8 +73,7 @@ def submit():
 
 # Run the application
 
-if __name__ == "__main__":
-    app.run()
+
     import os
 
 if __name__ == "__main__":
