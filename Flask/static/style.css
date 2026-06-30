@@ -186,6 +186,8 @@ p{
 
 /* ===== COMMON BUTTON STYLE ===== */
 
+/* ===== COMMON BUTTON STYLE ===== */
+
 .start-btn,
 .predict-btn,
 .loan-btn,
@@ -193,14 +195,17 @@ p{
 button[type="submit"]{
     width:100%;
     padding:18px;
-    margin-top:15px;
+    margin-top:20px;
     border:none;
     border-radius:60px;
     font-size:22px;
     font-weight:700;
     color:#fff;
     cursor:pointer;
-    display:block;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
     text-align:center;
     text-decoration:none;
     background:linear-gradient(90deg,#00d2ff,#3a7bd5,#7b2ff7);
